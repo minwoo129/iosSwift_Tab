@@ -19,6 +19,7 @@
 		A30ED72F2A2F1B8900401D53 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A30ED72D2A2F1B8900401D53 /* lamp_off.png */; };
 		A30ED7302A2F1B8900401D53 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A30ED72E2A2F1B8900401D53 /* lamp_on.png */; };
 		A30ED7322A2F1BDF00401D53 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED7312A2F1BDF00401D53 /* ImageViewController.swift */; };
+		A30ED7B02A2F5F1800401D53 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED7AF2A2F5F1800401D53 /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A30ED72D2A2F1B8900401D53 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
 		A30ED72E2A2F1B8900401D53 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		A30ED7312A2F1BDF00401D53 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A30ED7AF2A2F5F1800401D53 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A30ED72E2A2F1B8900401D53 /* lamp_on.png */,
 				A30ED6FD2A2F1A2F00401D53 /* AppDelegate.swift */,
 				A30ED6FF2A2F1A2F00401D53 /* SceneDelegate.swift */,
+				A30ED7AF2A2F5F1800401D53 /* DateViewController.swift */,
 				A30ED7312A2F1BDF00401D53 /* ImageViewController.swift */,
 				A30ED7012A2F1A2F00401D53 /* ViewController.swift */,
 				A30ED7032A2F1A2F00401D53 /* Main.storyboard */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30ED7B02A2F5F1800401D53 /* DateViewController.swift in Sources */,
 				A30ED7022A2F1A2F00401D53 /* ViewController.swift in Sources */,
 				A30ED6FE2A2F1A2F00401D53 /* AppDelegate.swift in Sources */,
 				A30ED7322A2F1BDF00401D53 /* ImageViewController.swift in Sources */,
