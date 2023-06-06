@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="-168"/>
+            <point key="canvasLocation" x="1047" y="85"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UWk-LN-Jan">
@@ -44,7 +44,7 @@
             </objects>
             <point key="canvasLocation" x="97" y="515"/>
         </scene>
-        <!--Item-->
+        <!--Image View Controller-->
         <scene sceneID="IUa-po-uHQ">
             <objects>
                 <viewController id="2mT-yk-Zh3" customClass="ImageViewController" customModule="Tab" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,7 +76,7 @@
                         <viewLayoutGuide key="safeArea" id="izn-tX-A7R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="8yK-bU-zvr"/>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="8yK-bU-zvr"/>
                     <connections>
                         <outlet property="btnResize" destination="UV7-qr-i2t" id="EGn-th-Pzf"/>
                         <outlet property="imgView" destination="lBh-X7-ERn" id="ojI-ZW-McO"/>
@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="1923" y="515"/>
         </scene>
-        <!--Item-->
+        <!--Date View Controller-->
         <scene sceneID="zqw-33-Qgk">
             <objects>
                 <viewController id="9AJ-eJ-jVI" customClass="DateViewController" customModule="Tab" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,7 +120,7 @@
                         <viewLayoutGuide key="safeArea" id="hK0-2C-yVg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="W6K-AO-yA3"/>
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="W6K-AO-yA3"/>
                     <connections>
                         <outlet property="lblCurrentTime" destination="ZKW-CP-XgM" id="l2B-wJ-Gog"/>
                         <outlet property="lblPickerTime" destination="BDb-O6-JDD" id="t6g-Ue-4QS"/>
@@ -128,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P3-NT-kkM" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1193" y="1007"/>
+            <point key="canvasLocation" x="1047" y="935"/>
         </scene>
     </scenes>
     <resources>
